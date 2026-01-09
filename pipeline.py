@@ -36,7 +36,7 @@ def data_preprocess(yes_list, faces):
 
     X_train, X_test = X[train_idx], X[test_idx]
     y_train, y_test = y[train_idx], y[test_idx]
-
+ 
     return X_train, X_test, y_train, y_test 
 
 
